@@ -1,7 +1,9 @@
 # esp32-Security-System
 # OVERVIEW
 A security system project built on ESP32 microcontroller.
+
 This system uses an IR sensor that detects any motion in front of the system switching on an alarmed state. The system also used a DHT-22 sensor that displays temperature and humidity; and switches to an emergency state when triggered by temperatures over 40°C. 
+
 This project is built as a part of my embedded systems learning journey and includes special structure built on linked list and queue to display event logs.
 
 # FEATURES
@@ -53,6 +55,7 @@ The system is in exceedingly high temperature aka rajasthan's hot summer of 40°
 Event logs are manages in a queue made using a linked list with max 5 length such that it keeps on queueing new state and removing the old state.
 
 Example has been given in the images/states.jpeg 
+
 STATES: 
 ARMED
 DISARMED
@@ -62,5 +65,7 @@ ALARMED
 
 # Author
 Suhaan Tanveer
+
 BTech Electronics and Communication Engineer
+
 Manipal University Jaipur
