@@ -1,5 +1,7 @@
 # esp32-Security-System
 # OVERVIEW
+[Menu Screen](images/menu.jpg)
+
 A security system project built on ESP32 microcontroller.
 
 This system uses an IR sensor that detects any motion in front of the system switching on an alarmed state. The system also used a DHT-22 sensor that displays temperature and humidity; and switches to an emergency state when triggered by temperatures over 40°C. 
@@ -29,6 +31,8 @@ This project is built as a part of my embedded systems learning journey and incl
 - IR (obstacle detection) sensor.
 - Breadboard and Jumper Wires.
 
+[Internal](images/internal_alarm.jpeg)
+
 # SOFTWARE USED
 - Arduino IDE (C/C++)
 - State Machine
@@ -50,6 +54,8 @@ The system has found an intruder from the IR sensor motion detection, the buzzer
 The system has been disarmed, the sensors are put to rest and cannot change the state unless armed again, this state can only be activated by the password written in serial monitor and the killswitch push button.
 # FIRE_ALERT
 The system is in exceedingly high temperature aka rajasthan's hot summer of 40°C. The system will behave like alarmed state untill turned off.
+
+[Finite State Machine](images/fsm.jpeg)
 
 # Event Logging
 Event logs are manages in a queue made using a linked list with max 5 length such that it keeps on queueing new state and removing the old state.
