@@ -79,6 +79,18 @@ A queue was implemented using:
 - Enums
 - Structs
 
+# What I Learned
+
+- Finite State Machines
+- I2C Communication
+- OLED Display Interfacing
+- Dynamic Memory Allocation
+- Linked Lists
+- Queue Data Structures
+- Sensor Integration
+- Embedded Debugging
+- Serial Communication
+
 [Video demo of Menu on the OLED Display](images/demo_menu.mp4)
 
 # Author
