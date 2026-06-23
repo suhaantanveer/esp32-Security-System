@@ -1,6 +1,6 @@
 # esp32-Security-System
 # OVERVIEW
-[Menu Screen](images/menu.jpg)
+![Menu Screen](images/menu.jpeg)
 
 A security system project built on ESP32 microcontroller.
 
@@ -31,7 +31,7 @@ This project is built as a part of my embedded systems learning journey and incl
 - IR (obstacle detection) sensor.
 - Breadboard and Jumper Wires.
 
-[Internal](images/internal_alarm.jpeg)
+![Internal](images/internal_alarm.jpeg)
 
 # SOFTWARE USED
 - Arduino IDE (C/C++)
@@ -55,7 +55,7 @@ The system has been disarmed, the sensors are put to rest and cannot change the 
 # FIRE_ALERT
 The system is in exceedingly high temperature aka rajasthan's hot summer of 40°C. The system will behave like alarmed state untill turned off.
 
-[Finite State Machine](images/fsm.jpeg)
+![Finite State Machine](images/fsm.jpeg)
 
 # Event Logging
 Event logs are manages in a queue made using a linked list with max 5 length such that it keeps on queueing new state and removing the old state.
