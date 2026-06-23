@@ -2,6 +2,8 @@
 # OVERVIEW
 ![Menu Screen](images/menu.jpeg)
 
+[Demo Video](images/demo1.mp4)
+
 A security system project built on ESP32 microcontroller.
 
 This system uses an IR sensor that detects any motion in front of the system switching on an alarmed state. The system also used a DHT-22 sensor that displays temperature and humidity; and switches to an emergency state when triggered by temperatures over 40°C. 
@@ -60,7 +62,8 @@ The system is in exceedingly high temperature aka rajasthan's hot summer of 40°
 # Event Logging
 Event logs are manages in a queue made using a linked list with max 5 length such that it keeps on queueing new state and removing the old state.
 
-Example has been given in the images/states.jpeg 
+Example has been given in the 
+![States](images/states.jpeg) 
 
 STATES: 
 ARMED
@@ -68,6 +71,15 @@ DISARMED
 ALARMED
 ARMED
 ALARMED
+
+# Data Structures Used
+A queue was implemented using:
+- Linked list
+- Dynamic memory allocation
+- Enums
+- Structs
+
+[Video demo of Menu on the OLED Display](images/demo_menu.mp4)
 
 # Author
 Suhaan Tanveer
